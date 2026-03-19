@@ -1,0 +1,14 @@
+[package]
+name = "zig-half"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/gHashTag/zig-half-rs"
+description = "f16/bf16 ML operations with sparse ternary support"
+
+[dependencies]
+half = "2.4"
+
+[lib]
+name = "zig_half"
+crate-type = ["cdylib", "rlib"]
